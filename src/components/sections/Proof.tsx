@@ -22,12 +22,20 @@ export function Proof() {
             <ScrollReveal key={t.name} delay={0.12 + i * 0.08}>
               <GlowCard className="flex h-full flex-col border border-line-light bg-white p-8">
                 <div className="flex items-baseline gap-3 border-b border-line-light pb-5">
-                  <span className="font-serif text-3xl font-semibold text-bronze">
-                    <CountUp value={t.statValue} suffix={t.statSuffix} />
-                  </span>
-                  <span className="text-[11px] tracking-[0.06em] text-muted-light uppercase">
-                    {t.statLabel}
-                  </span>
+                  {t.statValue !== undefined ? (
+                    <>
+                      <span className="font-serif text-3xl font-semibold text-bronze">
+                        <CountUp value={t.statValue} suffix={t.statSuffix} />
+                      </span>
+                      <span className="text-[11px] tracking-[0.06em] text-muted-light uppercase">
+                        {t.statLabel}
+                      </span>
+                    </>
+                  ) : (
+                    <span className="font-serif text-lg text-bronze italic">
+                      {t.statLabel}
+                    </span>
+                  )}
                 </div>
                 <p className="mt-5 font-serif text-[16px] leading-relaxed text-ink italic">
                   &ldquo;{t.quote}&rdquo;

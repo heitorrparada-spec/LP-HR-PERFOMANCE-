@@ -32,4 +32,18 @@ Registro dos feedbacks coletados dos pacientes do Heitor, brutos e já lapidados
 
 ---
 
+## 03 — Gustavo Rezende
+
+**Bruto (mensagem original):**
+> Uma experiencia muito positiva tanto a qualidade do serviço por parte das dietas e conhecimentos nutricionais, quanto pela qualidade na transmissão de informações e proximidade com o paciente. A disponibilidade do Heitor é algo louvável e de grande valor para os processos que o paciente se encontra, pois ao mesmo tempo que tem um profissional extremamente qualificado para contar, tem alguém que entende as frustrações do dia a dia e não menospreza nenhum esforço ou dificuldade.
+
+**Lapidado (para uso na LP):**
+> "Uma experiência muito positiva — tanto pela qualidade do serviço, das dietas e do conhecimento nutricional, quanto pela clareza na transmissão das informações e pela proximidade com o paciente. A disponibilidade do Heitor é algo louvável: ao mesmo tempo que você tem um profissional extremamente qualificado, tem alguém que entende as frustrações do dia a dia e não menospreza nenhum esforço ou dificuldade."
+>
+> **— Gustavo Rezende**
+
+**Dado-chave para destaque visual:** nenhum número citado (sem kg/meses/percentual) — usei "Proximidade e suporte constante" como selo qualitativo no lugar do número, em vez de inventar uma métrica. Componente `Proof.tsx` já suporta os dois formatos (com e sem número).
+
+---
+
 <!-- Próximo depoimento: adicionar abaixo seguindo o mesmo formato -->
