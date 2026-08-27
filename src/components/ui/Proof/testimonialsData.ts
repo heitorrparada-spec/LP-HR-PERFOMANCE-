@@ -6,7 +6,7 @@ export type Testimonial = {
   statLabel: string;
 };
 
-// Adicionar novos depoimentos aqui conforme forem coletados (ver claude/FEEDBACKS.md)
+// Adicionar novos depoimentos aqui conforme forem coletados (ver .claude/FEEDBACKS.md)
 export const testimonials: Testimonial[] = [
   {
     name: "Kauan",
