@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #0a0a0a;
+  --charcoal: #151412;
+  --charcoal-2: #1c1a17;
+  --gold: #b7975f;
+  --gold-light: #d0b686;
+  --bronze: #7d6636;
+  --offwhite: #f6f3ec;
+  --paper: #eeeade;
+  --muted-dark: #9c968c;
+  --muted-light: #625d54;
+  --line-dark: rgba(183, 151, 95, 0.22);
+  --line-light: rgba(10, 10, 10, 0.1);
+}
+
+@theme inline {
+  --color-ink: var(--ink);
+  --color-charcoal: var(--charcoal);
+  --color-charcoal-2: var(--charcoal-2);
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --color-bronze: var(--bronze);
+  --color-offwhite: var(--offwhite);
+  --color-paper: var(--paper);
+  --color-muted-dark: var(--muted-dark);
+  --color-muted-light: var(--muted-light);
+  --font-serif: var(--font-lora), Georgia, serif;
+  --font-sans: var(--font-inter), -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--offwhite);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
