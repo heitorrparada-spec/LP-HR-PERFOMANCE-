@@ -16,7 +16,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://hrperformance.com.br"),
+  metadataBase: new URL("https://lp-hr-perfomance.vercel.app"),
   title: {
     default: "HR Performance — Acompanhamento Esportivo Multidisciplinar",
     template: "%s — HR Performance",
