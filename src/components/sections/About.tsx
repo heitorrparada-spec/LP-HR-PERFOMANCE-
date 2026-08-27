@@ -33,66 +33,62 @@ export function About() {
           </span>
         </ScrollReveal>
 
-        <div className="mt-10 flex flex-col gap-16">
+        <div className="mt-10 grid grid-cols-1 gap-12 md:grid-cols-2 md:gap-x-14 md:gap-y-0">
           {founders.map((founder, i) => (
-            <div
+            <ScrollReveal
               key={founder.name}
-              className={cn(
-                "grid grid-cols-1 items-center gap-9 md:grid-cols-[0.9fr_1.1fr] md:gap-16",
-                i > 0 && "border-t border-line-dark pt-16",
-              )}
+              delay={i * 0.08}
+              className={cn(i > 0 && "md:border-l md:border-line-dark md:pl-14")}
             >
-              <ScrollReveal
-                className={cn(
-                  "relative flex aspect-[1/1.05] items-center justify-center overflow-hidden border bg-charcoal",
-                  founder.pending
-                    ? "border-dashed border-line-dark"
-                    : "border-line-dark",
-                )}
-              >
-                {founder.photo ? (
-                  <Image
-                    src={founder.photo}
-                    alt={founder.name}
-                    fill
-                    sizes="(min-width: 768px) 40vw, 90vw"
-                    className="object-cover grayscale-15"
-                  />
-                ) : (
-                  <span
-                    className={cn(
-                      "font-serif text-8xl",
-                      founder.pending ? "text-muted-dark" : "text-gold",
-                    )}
-                  >
-                    {founder.initials}
-                  </span>
-                )}
-              </ScrollReveal>
-              <ScrollReveal delay={0.1}>
-                <h2 className="font-serif text-[clamp(24px,3.6vw,32px)] font-medium">
-                  {founder.name}
-                </h2>
-                <div className="mt-2 text-xs font-semibold tracking-[0.12em] text-gold uppercase">
-                  {founder.role}
-                </div>
-                <p
+              <div className="flex items-center gap-4">
+                <div
                   className={cn(
-                    "mt-5 text-[15px] leading-[1.75]",
+                    "relative flex h-16 w-16 flex-shrink-0 items-center justify-center overflow-hidden rounded-full border bg-charcoal",
                     founder.pending
-                      ? "text-muted-dark italic"
-                      : "text-muted-dark",
+                      ? "border-dashed border-line-dark"
+                      : "border-line-dark",
                   )}
                 >
-                  {founder.text}
-                </p>
-                {founder.note && (
-                  <p className="mt-2 text-[13px] text-[#8a8377] italic">
-                    {founder.note}
-                  </p>
+                  {founder.photo ? (
+                    <Image
+                      src={founder.photo}
+                      alt={founder.name}
+                      fill
+                      sizes="64px"
+                      className="object-cover grayscale-15"
+                    />
+                  ) : (
+                    <span
+                      className={cn(
+                        "font-serif text-lg",
+                        founder.pending ? "text-muted-dark" : "text-gold",
+                      )}
+                    >
+                      {founder.initials}
+                    </span>
+                  )}
+                </div>
+                <div>
+                  <h2 className="font-serif text-lg font-medium">{founder.name}</h2>
+                  <div className="mt-1 text-[11px] font-semibold tracking-[0.1em] text-gold uppercase">
+                    {founder.role}
+                  </div>
+                </div>
+              </div>
+              <p
+                className={cn(
+                  "mt-4 text-[14px] leading-[1.7]",
+                  founder.pending ? "text-muted-dark italic" : "text-muted-dark",
                 )}
-              </ScrollReveal>
-            </div>
+              >
+                {founder.text}
+              </p>
+              {founder.note && (
+                <p className="mt-2 text-[12px] text-[#8a8377] italic">
+                  {founder.note}
+                </p>
+              )}
+            </ScrollReveal>
           ))}
         </div>
       </div>
