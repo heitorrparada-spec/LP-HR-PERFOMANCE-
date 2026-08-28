@@ -1,6 +1,6 @@
 import { Eyebrow } from "@/components/ui/Shared/Eyebrow";
 import { ScrollReveal } from "@/components/ui/Shared/ScrollReveal";
-import { TestimonialsMarquee } from "@/components/ui/Proof/TestimonialsMarquee";
+import { TestimonialsGrid } from "@/components/ui/Proof/TestimonialsGrid";
 import { testimonials } from "@/components/ui/Proof/testimonialsData";
 
 export function Proof() {
@@ -18,7 +18,7 @@ export function Proof() {
 
         <ScrollReveal delay={0.12} className="mt-12">
           {testimonials.length > 0 ? (
-            <TestimonialsMarquee />
+            <TestimonialsGrid />
           ) : (
             <div className="mx-auto w-full max-w-[640px] border border-dashed border-line-dark p-14 text-left">
               <p className="font-serif text-[17px] text-muted-dark italic">

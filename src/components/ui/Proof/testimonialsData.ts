@@ -11,7 +11,7 @@ export const testimonials: Testimonial[] = [
   {
     name: "Kauan",
     quote:
-      "Quando comecei, estava decidido: dessa vez eu mudaria os hábitos de verdade — porque sem isso, seria só mais dinheiro jogado fora. Segui a dieta à risca e os resultados vieram, e com eles a motivação. O Heitor esteve presente em cada etapa, sempre perguntando sobre a fome, os alimentos, a evolução — até quando decidi apostar na tirzepatida, e aí a mudança foi radical, na dieta e nos treinos. Hoje já são 23kg a menos em 6 meses, e a meta não para — ainda temos um grande propósito pela frente.",
+      "Quando comecei, estava decidido: dessa vez eu mudaria os hábitos de verdade — porque sem isso, seria só mais dinheiro jogado fora. Segui a dieta à risca e os resultados vieram, e com eles a motivação. O Heitor esteve presente em cada etapa, sempre perguntando sobre a fome, os alimentos, a evolução — e a mudança foi radical, na dieta e nos treinos. Hoje já são 23kg a menos em 6 meses, e a meta não para — ainda temos um grande propósito pela frente.",
     statValue: 23,
     statSuffix: "kg",
     statLabel: "em 6 meses de acompanhamento",

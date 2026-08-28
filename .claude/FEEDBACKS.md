@@ -16,6 +16,8 @@ Registro dos feedbacks coletados dos pacientes do Heitor, brutos e já lapidados
 
 **Dado-chave para destaque visual:** 23kg / 6 meses (bom para um número grande em destaque, estilo "stat" ao lado do depoimento).
 
+**Edição (2026-08-28):** removido o trecho "até quando decidi apostar na tirzepatida" da versão usada na LP, a pedido do cliente — não quer que a marca seja associada a "consultoria que acompanha uso de tirzepatida". Mantida a experiência sobre acompanhamento, aderência e evolução.
+
 ---
 
 ## 02 — Erick Borges

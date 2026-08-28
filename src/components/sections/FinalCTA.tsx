@@ -1,6 +1,5 @@
 import { ScrollReveal } from "@/components/ui/Shared/ScrollReveal";
-import { Button } from "@/components/ui/Shared/Button";
-import { whatsappLink } from "@/lib/whatsapp";
+import { FormatChooserButton } from "@/components/ui/Shared/FormatChooserButton";
 
 export function FinalCTA() {
   return (
@@ -31,15 +30,8 @@ export function FinalCTA() {
           </p>
         </ScrollReveal>
 
-        <ScrollReveal delay={0.24} className="mt-10">
-          <Button
-            href={whatsappLink(
-              "Olá! Vim pelo site e quero saber mais sobre o acompanhamento da HR Performance.",
-            )}
-            external
-          >
-            Falar no WhatsApp
-          </Button>
+        <ScrollReveal delay={0.24} className="mt-10 flex justify-center">
+          <FormatChooserButton />
         </ScrollReveal>
 
         <ScrollReveal

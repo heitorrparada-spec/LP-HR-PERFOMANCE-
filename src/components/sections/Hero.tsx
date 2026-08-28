@@ -2,6 +2,7 @@
 
 import { motion, useReducedMotion } from "motion/react";
 import { Button } from "@/components/ui/Shared/Button";
+import { FormatChooserButton } from "@/components/ui/Shared/FormatChooserButton";
 
 const fadeUp = (delay: number) => ({
   initial: { opacity: 0, y: 14 },
@@ -52,7 +53,7 @@ export function Hero() {
         {...variant(0.55)}
         className="mt-11 flex flex-wrap justify-center gap-3.5"
       >
-        <Button href="#contato">Quero começar</Button>
+        <FormatChooserButton />
         <Button href="#como-funciona" variant="ghost">
           Ver como funciona
         </Button>

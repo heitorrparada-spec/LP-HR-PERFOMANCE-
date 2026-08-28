@@ -4,17 +4,17 @@ import { ScrollReveal } from "@/components/ui/Shared/ScrollReveal";
 const items = [
   {
     num: "01",
-    title: "Profissionais isolados",
+    title: "Profissionais desconectados",
     text: "Nutricionista, psicólogo e personal trabalhando cada um por conta própria — sem conversar entre si sobre o mesmo objetivo.",
   },
   {
     num: "02",
-    title: "Sem ajuste no tempo certo",
+    title: "Estratégias que não acompanham mudanças",
     text: "O corpo e a rotina mudam, mas o plano continua o mesmo até a próxima consulta marcada — em qualquer área.",
   },
   {
     num: "03",
-    title: "Pouco contato, muita dúvida",
+    title: "Dúvidas que ficam para a próxima consulta",
     text: "Perguntas do dia a dia sem resposta, porque não existe um canal direto com quem acompanha.",
   },
 ];
@@ -26,7 +26,8 @@ export function Problem() {
         <ScrollReveal className="max-w-[640px]">
           <Eyebrow>O ponto de partida</Eyebrow>
           <h2 className="font-serif text-[clamp(26px,4vw,38px)] leading-[1.28] font-medium">
-            A maioria dos acompanhamentos falha antes mesmo de começar.
+            Quando o acompanhamento não acompanha a sua rotina, o processo
+            perde força.
           </h2>
         </ScrollReveal>
 

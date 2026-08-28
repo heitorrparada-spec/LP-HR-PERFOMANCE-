@@ -7,7 +7,7 @@ const founders = [
     initials: "HR",
     photo: "/heitor-parada.jpeg",
     name: "Heitor Rodrigues Parada",
-    role: "Nutricionista Esportivo · Fundador da HR Performance",
+    role: "Fundador · Nutrição",
     text: "A HR Performance nasceu do atendimento individual do Heitor e hoje se estrutura como um ecossistema de acompanhamento multidisciplinar — nutrição e psicologia trabalhando de forma coordenada, com o treinamento físico entrando em breve. O diferencial de sempre continua: atenção próxima, sem planos genéricos.",
     note: "[ Formação acadêmica e trajetória a definir ]",
     pending: false,
@@ -16,7 +16,7 @@ const founders = [
     initials: "PSI",
     photo: null,
     name: "Denise Rodrigues Parada",
-    role: "Psicóloga · Co-fundadora da HR Performance",
+    role: "Co-fundadora · Psicologia",
     text: "[ Texto de apresentação a definir — em breve ]",
     note: null,
     pending: true,
@@ -29,7 +29,7 @@ export function About() {
       <div className="mx-auto max-w-[1080px]">
         <ScrollReveal>
           <span className="text-xs font-semibold tracking-[0.12em] text-gold uppercase">
-            Quem fundou o ecossistema
+            Quem está por trás da HR Performance
           </span>
         </ScrollReveal>
 
