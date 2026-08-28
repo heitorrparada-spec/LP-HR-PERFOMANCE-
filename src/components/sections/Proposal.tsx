@@ -13,8 +13,8 @@ export function Proposal() {
         </ScrollReveal>
         <ScrollReveal delay={0.08} className="mt-4">
           <h2 className="max-w-[760px] font-serif text-[clamp(24px,4vw,36px)] leading-[1.4] font-medium italic">
-            &ldquo;Não entregamos uma consulta isolada. Entregamos um
-            ecossistema — que se ajusta junto com você.&rdquo;
+            &ldquo;Entregamos o ecossistema necessário para o seu objetivo —
+            e juntos trilhamos um caminho de conquistas.&rdquo;
           </h2>
         </ScrollReveal>
         <ScrollReveal

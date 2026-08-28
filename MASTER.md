@@ -13,7 +13,7 @@ Direção: **saúde/performance esportiva**. Extremamente profissional, sóbrio,
 ## Cores
 
 | Token (código) | Nome (guia) | Hex | Uso |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `verde` | Verde Performance (pinheiro) | `#1c3329` | Cor primária — hero, fundos de destaque (Proposta, Diferencial, Sobre, CTA final). Escurecido em relação ao valor original do guia (`#2f4a3e`) — o cliente achou o tom original muito "gramado"; este é mais premium/sóbrio |
 | `verde-salvia` | Verde Sálvia | `#35493d` | Variação clara do verde — reservado para hover/detalhes futuros |
 | `offwhite` | Bege Areia | `#ede6d6` | Fundo principal das seções claras, cards |
