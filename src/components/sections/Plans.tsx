@@ -4,6 +4,7 @@ import { GlowCard } from "@/components/ui/Shared/GlowCard";
 import { Button } from "@/components/ui/Shared/Button";
 import { whatsappLink } from "@/lib/whatsapp";
 import { cn } from "@/lib/utils";
+import { ProfessionalToggle } from "@/components/ui/Plans/ProfessionalToggle";
 
 const services = [
   {
@@ -27,6 +28,7 @@ const services = [
     message:
       "Olá! Vim pelo site e quero conhecer o Acompanhamento Individual da HR Performance.",
     featured: false,
+    showBreakdown: true,
   },
   {
     num: "02",
@@ -209,6 +211,8 @@ export function Plans() {
                           ))}
                         </ul>
                       )}
+
+                      {service.showBreakdown && <ProfessionalToggle />}
 
                       {service.example && (
                         <>
