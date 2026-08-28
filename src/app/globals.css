@@ -3,8 +3,8 @@
 :root {
   /* HR Performance — Guia de Design */
   --ink: #14170f; /* preto grafite — texto principal, footer, prova social */
-  --verde: #2f4a3e; /* verde performance — cor primária, hero, fundos de destaque */
-  --verde-salvia: #4f6f5c; /* verde sálvia — hover, detalhes */
+  --verde: #1c3329; /* verde performance (pinheiro/premium) — cor primária, hero, fundos de destaque */
+  --verde-salvia: #35493d; /* variação mais clara — hover, detalhes */
   --charcoal: #1e2318;
   --charcoal-2: #262c1e;
   --gold: #c9a227; /* dourado hr — divisores, CTAs, destaques */

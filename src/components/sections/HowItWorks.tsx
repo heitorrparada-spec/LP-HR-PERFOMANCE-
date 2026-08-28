@@ -40,7 +40,7 @@ export function HowItWorks() {
             <ScrollReveal
               key={step.num}
               delay={i * 0.08}
-              className="relative border-gold px-5.5 first:pl-0 lg:border-r lg:pr-6 lg:last:border-r-0"
+              className="relative lg:border-gold lg:px-5.5 lg:border-r lg:pr-6 lg:first:pl-0 lg:last:border-r-0"
             >
               <span className="font-accent text-4xl leading-none font-semibold tracking-wide text-bronze">
                 {step.num}

@@ -37,7 +37,7 @@ export function Navbar() {
       </a>
       <a
         href="#contato"
-        className="whitespace-nowrap bg-gold px-[18px] py-[11px] text-[11px] font-semibold tracking-[0.14em] text-ink uppercase transition-[background-color,transform] duration-200 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-px hover:bg-gold-light active:translate-y-0 active:bg-bronze focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-[3px] focus-visible:outline-gold-light"
+        className="whitespace-nowrap bg-gold px-[18px] py-[11px] text-[11px] font-semibold tracking-[0.14em] text-ink uppercase transition-[background-color,transform] duration-200 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-px hover:bg-gold-light active:translate-y-0 active:bg-bronze focus-visible:outline-2 focus-visible:outline-offset-[3px] focus-visible:outline-gold-light"
       >
         Falar agora
       </a>

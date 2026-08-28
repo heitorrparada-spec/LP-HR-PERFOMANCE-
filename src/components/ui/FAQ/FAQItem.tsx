@@ -13,7 +13,7 @@ export function FAQItem({ q, a }: { q: string; a: string }) {
         onClick={() => setOpen((v) => !v)}
         aria-expanded={open}
         aria-controls={panelId}
-        className="flex w-full items-center justify-between gap-5 py-[22px] text-left text-[15.5px] font-medium text-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-bronze"
+        className="flex w-full items-center justify-between gap-5 py-[22px] text-left text-[15.5px] font-medium text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-bronze"
       >
         {q}
         <span

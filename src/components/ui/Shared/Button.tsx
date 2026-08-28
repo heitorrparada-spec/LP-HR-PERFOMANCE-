@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 
 const base =
-  "inline-block px-[30px] py-4 text-xs font-semibold tracking-[0.14em] uppercase transition-[background-color,border-color,transform] duration-200 ease-[cubic-bezier(0.16,1,0.3,1)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-[3px] focus-visible:outline-gold-light";
+  "inline-block px-[30px] py-4 text-xs font-semibold tracking-[0.14em] uppercase transition-[background-color,border-color,transform] duration-200 ease-[cubic-bezier(0.16,1,0.3,1)] focus-visible:outline-2 focus-visible:outline-offset-[3px] focus-visible:outline-gold-light";
 
 const variants = {
   primary:

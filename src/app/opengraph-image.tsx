@@ -19,7 +19,7 @@ export default function Image() {
           alignItems: "center",
           justifyContent: "center",
           background:
-            "radial-gradient(ellipse 900px 500px at 50% -10%, rgba(201,162,39,0.22), transparent 60%), #2f4a3e",
+            "radial-gradient(ellipse 900px 500px at 50% -10%, rgba(201,162,39,0.22), transparent 60%), #1c3329",
         }}
       >
         <div
