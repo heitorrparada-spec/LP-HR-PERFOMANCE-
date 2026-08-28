@@ -8,6 +8,7 @@ import { cn } from "@/lib/utils";
 const services = [
   {
     num: "01",
+    tone: "verde" as const,
     title: "Acompanhamento Individual",
     hook: "Seu objetivo. Seu profissional. Sua estratégia.",
     paragraphs: [
@@ -29,6 +30,7 @@ const services = [
   },
   {
     num: "02",
+    tone: "dourado" as const,
     title: "Acompanhamento Multidisciplinar",
     hook: "Diferentes especialidades. Um mesmo objetivo.",
     paragraphs: [
@@ -52,13 +54,14 @@ const services = [
   },
   {
     num: "03",
-    title: "Home Care",
+    tone: "elite" as const,
+    title: "HR Performance Elite",
     hook: "A HR Performance vai até você.",
     paragraphs: [
-      "O Home Care é a nossa modalidade de acompanhamento mais exclusiva.",
+      "A HR Performance Elite é a nossa modalidade de acompanhamento mais exclusiva.",
       "A proposta é levar parte da experiência da HR Performance para dentro da sua rotina, proporcionando comodidade, proximidade e acompanhamento personalizado no seu próprio ambiente.",
       "Em vez de você adaptar toda a sua rotina para os profissionais, criamos uma experiência que se adapta a você.",
-      "A composição do Home Care pode envolver diferentes profissionais e frequências de atendimento, de acordo com o plano escolhido.",
+      "A composição da HR Performance Elite pode envolver diferentes profissionais e frequências de atendimento, de acordo com o plano escolhido.",
     ],
     example: [
       {
@@ -83,11 +86,17 @@ const services = [
     bullets: [],
     idealFor:
       "exclusividade, comodidade e uma experiência multidisciplinar que se integra à própria rotina",
-    ctaLabel: "Conhecer o Home Care",
-    message: "Olá! Vim pelo site e quero conhecer o Home Care da HR Performance.",
+    ctaLabel: "Conhecer a HR Performance Elite",
+    message: "Olá! Vim pelo site e quero conhecer a HR Performance Elite.",
     featured: true,
   },
 ];
+
+const toneAccent = {
+  verde: "bg-verde",
+  dourado: "bg-gold",
+  elite: "bg-gold",
+};
 
 export function Plans() {
   return (
@@ -105,7 +114,7 @@ export function Plans() {
             levar nossa equipe até você.
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-2.5">
-            {["Individual", "Multidisciplinar", "Home Care"].map((tag) => (
+            {["Individual", "Multidisciplinar", "Elite"].map((tag) => (
               <span
                 key={tag}
                 className="rounded-full border border-line-light px-[13px] py-[7px] text-[10px] tracking-[0.14em] text-muted-light uppercase"
@@ -120,95 +129,160 @@ export function Plans() {
         </ScrollReveal>
 
         <div className="mt-16 flex flex-col gap-6">
-          {services.map((service, i) => (
-            <ScrollReveal key={service.num} delay={i * 0.08}>
-              <GlowCard
-                className={cn(
-                  "border border-line-light bg-white px-6 py-12 sm:px-9",
-                  service.featured && "border-bronze",
-                )}
-              >
-                <div className="grid grid-cols-1 gap-3 sm:grid-cols-[80px_1fr]">
-                  <span className="font-serif text-sm text-bronze italic">
-                    {service.num}
-                  </span>
-                  <div>
-                    <div className="flex flex-wrap items-center gap-3">
-                      <h3 className="font-serif text-2xl font-semibold">
-                        {service.title}
-                      </h3>
-                      {service.featured && (
-                        <span className="bg-gold px-[11px] py-[5px] text-[10px] font-semibold tracking-[0.1em] text-ink uppercase">
-                          Mais exclusivo
-                        </span>
+          {services.map((service, i) => {
+            const isElite = service.tone === "elite";
+            return (
+              <ScrollReveal key={service.num} delay={i * 0.08}>
+                <GlowCard
+                  className={cn(
+                    "border border-line-light px-6 py-12 sm:px-9",
+                    isElite ? "bg-ink text-offwhite" : "bg-white",
+                    service.featured && "border-bronze",
+                  )}
+                >
+                  <div className={cn("h-1 -mx-6 -mt-12 mb-10 sm:-mx-9", toneAccent[service.tone])} />
+                  <div className="grid grid-cols-1 gap-3 sm:grid-cols-[80px_1fr]">
+                    <span
+                      className={cn(
+                        "font-accent text-2xl font-semibold tracking-wide",
+                        isElite
+                          ? "text-gold"
+                          : service.tone === "verde"
+                            ? "text-verde"
+                            : "text-bronze",
                       )}
-                    </div>
-                    <p className="mt-2 font-serif text-lg text-muted-light italic">
-                      {service.hook}
-                    </p>
+                    >
+                      {service.num}
+                    </span>
+                    <div>
+                      <div className="flex flex-wrap items-center gap-3">
+                        <h3 className="font-serif text-2xl font-semibold">
+                          {service.title}
+                        </h3>
+                        {service.featured && (
+                          <span className="bg-gold px-[11px] py-[5px] text-[10px] font-semibold tracking-[0.1em] text-ink uppercase">
+                            Mais exclusivo
+                          </span>
+                        )}
+                      </div>
+                      <p
+                        className={cn(
+                          "mt-2 font-serif text-lg italic",
+                          isElite ? "text-muted-dark" : "text-muted-light",
+                        )}
+                      >
+                        {service.hook}
+                      </p>
 
-                    <div className="mt-5 flex max-w-[640px] flex-col gap-4">
-                      {service.paragraphs.map((p) => (
-                        <p key={p} className="text-[15px] text-muted-light">
-                          {p}
-                        </p>
-                      ))}
-                    </div>
-
-                    {service.bullets.length > 0 && (
-                      <ul className="mt-6 grid grid-cols-1 gap-2.5 sm:grid-cols-2">
-                        {service.bullets.map((bullet) => (
-                          <li
-                            key={bullet}
-                            className="flex items-start gap-2 text-[13.5px] text-muted-light"
+                      <div className="mt-5 flex max-w-[640px] flex-col gap-4">
+                        {service.paragraphs.map((p) => (
+                          <p
+                            key={p}
+                            className={cn(
+                              "text-[15px]",
+                              isElite ? "text-muted-dark" : "text-muted-light",
+                            )}
                           >
-                            <span className="mt-2 h-1 w-1 flex-shrink-0 rounded-full bg-bronze" />
-                            {bullet}
-                          </li>
+                            {p}
+                          </p>
                         ))}
-                      </ul>
-                    )}
+                      </div>
 
-                    {service.example && (
-                      <>
-                        <p className="mt-7 text-[11px] font-semibold tracking-[0.1em] text-bronze uppercase">
-                          Um exemplo de experiência
-                        </p>
-                        <div className="mt-4 grid grid-cols-1 gap-4 border border-line-light bg-offwhite p-5 sm:grid-cols-2">
-                          {service.example.map((item) => (
-                            <div key={item.label}>
-                              <div className="text-sm font-semibold text-ink">
-                                {item.label}
-                              </div>
-                              <p className="mt-1 text-[13px] text-muted-light">
-                                {item.text}
-                              </p>
-                            </div>
+                      {service.bullets.length > 0 && (
+                        <ul className="mt-6 grid grid-cols-1 gap-2.5 sm:grid-cols-2">
+                          {service.bullets.map((bullet) => (
+                            <li
+                              key={bullet}
+                              className={cn(
+                                "flex items-start gap-2 text-[13.5px]",
+                                isElite ? "text-muted-dark" : "text-muted-light",
+                              )}
+                            >
+                              <span
+                                className={cn(
+                                  "mt-2 h-1 w-1 flex-shrink-0 rounded-full",
+                                  isElite ? "bg-gold" : "bg-bronze",
+                                )}
+                              />
+                              {bullet}
+                            </li>
                           ))}
-                        </div>
-                        <p className="mt-5 max-w-[640px] text-[15px] text-muted-light">
-                          {service.closing}
-                        </p>
-                      </>
-                    )}
+                        </ul>
+                      )}
 
-                    <p className="mt-6 text-[13px] text-muted-light">
-                      <span className="font-semibold text-ink">
-                        Ideal para quem busca:
-                      </span>{" "}
-                      {service.idealFor}.
-                    </p>
+                      {service.example && (
+                        <>
+                          <p className="mt-7 text-[11px] font-semibold tracking-[0.1em] text-gold uppercase">
+                            Um exemplo de experiência
+                          </p>
+                          <div
+                            className={cn(
+                              "mt-4 grid grid-cols-1 gap-4 border p-5 sm:grid-cols-2",
+                              isElite
+                                ? "border-line-dark bg-charcoal"
+                                : "border-line-light bg-offwhite",
+                            )}
+                          >
+                            {service.example.map((item) => (
+                              <div key={item.label}>
+                                <div
+                                  className={cn(
+                                    "text-sm font-semibold",
+                                    isElite ? "text-offwhite" : "text-ink",
+                                  )}
+                                >
+                                  {item.label}
+                                </div>
+                                <p
+                                  className={cn(
+                                    "mt-1 text-[13px]",
+                                    isElite ? "text-muted-dark" : "text-muted-light",
+                                  )}
+                                >
+                                  {item.text}
+                                </p>
+                              </div>
+                            ))}
+                          </div>
+                          <p
+                            className={cn(
+                              "mt-5 max-w-[640px] text-[15px]",
+                              isElite ? "text-muted-dark" : "text-muted-light",
+                            )}
+                          >
+                            {service.closing}
+                          </p>
+                        </>
+                      )}
 
-                    <div className="mt-7">
-                      <Button href={whatsappLink(service.message)} external>
-                        {service.ctaLabel}
-                      </Button>
+                      <p
+                        className={cn(
+                          "mt-6 text-[13px]",
+                          isElite ? "text-muted-dark" : "text-muted-light",
+                        )}
+                      >
+                        <span
+                          className={cn(
+                            "font-semibold",
+                            isElite ? "text-offwhite" : "text-ink",
+                          )}
+                        >
+                          Ideal para quem busca:
+                        </span>{" "}
+                        {service.idealFor}.
+                      </p>
+
+                      <div className="mt-7">
+                        <Button href={whatsappLink(service.message)} external>
+                          {service.ctaLabel}
+                        </Button>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </GlowCard>
-            </ScrollReveal>
-          ))}
+                </GlowCard>
+              </ScrollReveal>
+            );
+          })}
         </div>
       </div>
     </section>

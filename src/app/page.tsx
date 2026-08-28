@@ -1,4 +1,5 @@
 import { ScrollProgress } from "@/components/ui/Shared/ScrollProgress";
+import { StickyWhatsApp } from "@/components/ui/Shared/StickyWhatsApp";
 import { Navbar } from "@/components/sections/Navbar";
 import { Hero } from "@/components/sections/Hero";
 import { Problem } from "@/components/sections/Problem";
@@ -34,6 +35,7 @@ export default function Home() {
       <FAQ />
       <FinalCTA />
       <Footer />
+      <StickyWhatsApp />
     </div>
   );
 }

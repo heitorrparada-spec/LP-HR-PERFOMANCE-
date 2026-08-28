@@ -19,7 +19,7 @@ export default function Image() {
           alignItems: "center",
           justifyContent: "center",
           background:
-            "radial-gradient(ellipse 900px 500px at 50% -10%, rgba(183,151,95,0.22), transparent 60%), #0a0a0a",
+            "radial-gradient(ellipse 900px 500px at 50% -10%, rgba(201,162,39,0.22), transparent 60%), #2f4a3e",
         }}
       >
         <div
@@ -28,11 +28,11 @@ export default function Image() {
             alignItems: "baseline",
             gap: 16,
             fontFamily: "Georgia, serif",
-            color: "#f6f3ec",
+            color: "#ede6d6",
             fontSize: 88,
           }}
         >
-          <span style={{ color: "#b7975f", fontWeight: 600 }}>HR</span>
+          <span style={{ color: "#c9a227", fontWeight: 600 }}>HR</span>
           <span style={{ letterSpacing: -1 }}>PERFORMANCE</span>
         </div>
         <div
@@ -40,7 +40,7 @@ export default function Image() {
             marginTop: 28,
             width: 88,
             height: 2,
-            background: "#b7975f",
+            background: "#c9a227",
           }}
         />
         <div
@@ -51,7 +51,7 @@ export default function Image() {
             fontSize: 28,
             letterSpacing: 6,
             textTransform: "uppercase",
-            color: "#9c968c",
+            color: "#aeb7ab",
           }}
         >
           Nutrição · Psicologia · Performance

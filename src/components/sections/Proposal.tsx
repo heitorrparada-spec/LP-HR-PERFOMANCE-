@@ -4,7 +4,7 @@ const flow = ["Análise", "Estratégia", "Execução", "Ajustes", "Evolução"];
 
 export function Proposal() {
   return (
-    <section className="bg-ink px-6 py-24 text-offwhite md:py-28">
+    <section className="bg-verde px-6 py-24 text-offwhite md:py-28">
       <div className="mx-auto flex max-w-[1080px] flex-col items-center text-center">
         <ScrollReveal>
           <span className="font-sans text-[11px] font-semibold tracking-[0.28em] text-gold uppercase">

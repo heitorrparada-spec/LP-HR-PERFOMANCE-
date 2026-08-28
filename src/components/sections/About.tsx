@@ -25,7 +25,7 @@ const founders = [
 
 export function About() {
   return (
-    <section className="bg-ink px-6 py-24 text-offwhite md:py-28">
+    <section className="bg-verde px-6 py-24 text-offwhite md:py-28">
       <div className="mx-auto max-w-[1080px]">
         <ScrollReveal>
           <span className="text-xs font-semibold tracking-[0.12em] text-gold uppercase">

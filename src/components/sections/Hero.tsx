@@ -20,7 +20,7 @@ export function Hero() {
       className="relative flex min-h-svh flex-col items-center justify-center px-6 pt-[140px] pb-20 text-center text-offwhite"
       style={{
         background:
-          "radial-gradient(ellipse 900px 500px at 50% -10%, rgba(183,151,95,0.14), transparent 60%), var(--ink)",
+          "radial-gradient(ellipse 900px 500px at 50% -10%, rgba(201,162,39,0.14), transparent 60%), var(--verde)",
       }}
     >
       <motion.div
@@ -44,8 +44,8 @@ export function Hero() {
         className="mt-6 max-w-[560px] text-[clamp(15px,2vw,18px)] font-light text-muted-dark"
       >
         Nutrição, psicologia e performance trabalhando de forma coordenada.
-        Você escolhe o nível de integração — de um profissional só até o
-        Home Care completo.
+        Você escolhe o nível de integração — de um profissional só até a
+        HR Performance Elite completa.
       </motion.p>
 
       <motion.div
@@ -59,10 +59,22 @@ export function Hero() {
       </motion.div>
 
       <motion.div
-        {...variant(0.7)}
-        className="mt-14 flex flex-wrap justify-center gap-2.5"
+        {...variant(0.63)}
+        className="mt-9 flex flex-col items-center gap-1"
       >
-        {["Atendimento individual", "Multidisciplinar", "Home Care"].map(
+        <span className="font-accent text-3xl font-semibold tracking-wide text-gold">
+          -23kg em 6 meses
+        </span>
+        <span className="text-[11px] tracking-[0.14em] text-muted-dark uppercase">
+          Resultado real de paciente
+        </span>
+      </motion.div>
+
+      <motion.div
+        {...variant(0.76)}
+        className="mt-9 flex flex-wrap justify-center gap-2.5"
+      >
+        {["Atendimento individual", "Multidisciplinar", "Elite"].map(
           (tag) => (
             <span
               key={tag}
@@ -75,7 +87,7 @@ export function Hero() {
       </motion.div>
 
       <div
-        className="pointer-events-none absolute inset-x-0 bottom-0 h-[120px] bg-gradient-to-b from-transparent to-ink"
+        className="pointer-events-none absolute inset-x-0 bottom-0 h-[120px] bg-gradient-to-b from-transparent to-verde"
         aria-hidden
       />
     </section>

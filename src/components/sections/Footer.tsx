@@ -4,8 +4,8 @@ export function Footer() {
       <div className="font-serif tracking-[0.05em] text-offwhite">
         HR PERFORMANCE
       </div>
-      <div className="mt-2 text-[10px] tracking-[0.16em] text-[#6b6459] uppercase">
-        Nutrição · Psicologia · Performance · Home Care
+      <div className="mt-2 text-[10px] tracking-[0.16em] text-muted-dark uppercase">
+        Nutrição · Psicologia · Performance · Elite
       </div>
     </footer>
   );

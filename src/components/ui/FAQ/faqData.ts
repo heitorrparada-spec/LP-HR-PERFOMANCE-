@@ -1,11 +1,11 @@
 export const faqItems = [
   {
     q: "Como funciona o acompanhamento na prática?",
-    a: "O processo segue quatro etapas: análise da sua rotina e objetivos, definição do formato (individual, multidisciplinar ou Home Care) e da estratégia de cada profissional, execução no dia a dia e ajustes periódicos conforme a evolução.",
+    a: "O processo segue quatro etapas: análise da sua rotina e objetivos, definição do formato (individual, multidisciplinar ou HR Performance Elite) e da estratégia de cada profissional, execução no dia a dia e ajustes periódicos conforme a evolução.",
   },
   {
     q: "Qual a diferença entre os formatos de acompanhamento?",
-    a: "Atendimento Individual é com um profissional só. Multidisciplinar reúne mais de um profissional trabalhando de forma coordenada em torno do mesmo objetivo. Home Care leva parte da equipe até você, com visitas presenciais e acompanhamento integrado.",
+    a: "Atendimento Individual é com um profissional só. Multidisciplinar reúne mais de um profissional trabalhando de forma coordenada em torno do mesmo objetivo. HR Performance Elite leva parte da equipe até você, com visitas presenciais e acompanhamento integrado.",
   },
   {
     q: "Preciso contratar todos os profissionais de uma vez?",
@@ -25,7 +25,7 @@ export const faqItems = [
   },
   {
     q: "Quanto custa e como funciona o pagamento?",
-    a: "Os valores variam conforme o formato escolhido (individual, multidisciplinar ou Home Care). Aceitamos Pix, débito e crédito — os detalhes são alinhados na conversa inicial, junto com o plano ideal pra você.",
+    a: "Os valores variam conforme o formato escolhido (individual, multidisciplinar ou HR Performance Elite). Aceitamos Pix, débito e crédito — os detalhes são alinhados na conversa inicial, junto com o plano ideal pra você.",
   },
   {
     q: "Para quem é esse acompanhamento?",

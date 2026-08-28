@@ -5,7 +5,7 @@ const rows = [
   {
     num: "01",
     title: "Você escolhe o nível de integração",
-    text: "Do atendimento individual ao Home Care completo — você define quanto suporte multidisciplinar faz sentido pra sua fase atual.",
+    text: "Do atendimento individual à HR Performance Elite — você define quanto suporte multidisciplinar faz sentido pra sua fase atual.",
   },
   {
     num: "02",
@@ -21,7 +21,7 @@ const rows = [
 
 export function Differentiator() {
   return (
-    <section className="bg-ink px-6 py-24 text-offwhite md:py-28">
+    <section className="bg-verde px-6 py-24 text-offwhite md:py-28">
       <div className="mx-auto max-w-[1080px]">
         <ScrollReveal className="max-w-[640px]">
           <Eyebrow tone="dark">Diferencial</Eyebrow>
@@ -37,7 +37,7 @@ export function Differentiator() {
           {rows.map((row, i) => (
             <ScrollReveal key={row.num} delay={i * 0.08}>
               <div className="grid grid-cols-[80px_1fr] items-baseline gap-6 border-b border-line-dark py-8 max-sm:grid-cols-1 max-sm:gap-2">
-                <span className="font-serif text-[15px] text-gold italic">
+                <span className="font-accent text-lg font-semibold tracking-wide text-gold">
                   {row.num}
                 </span>
                 <div>

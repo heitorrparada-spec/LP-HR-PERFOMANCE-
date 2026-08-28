@@ -33,7 +33,9 @@ export function Problem() {
         <div className="mt-14 grid grid-cols-1 gap-px border border-line-light bg-line-light sm:grid-cols-3">
           {items.map((item, i) => (
             <ScrollReveal key={item.num} delay={i * 0.08} className="bg-offwhite p-7">
-              <span className="font-serif text-sm text-bronze italic">{item.num}</span>
+              <span className="font-accent text-lg font-semibold tracking-wide text-bronze">
+                {item.num}
+              </span>
               <h3 className="mt-3.5 mb-2.5 font-serif text-[19px] font-medium">
                 {item.title}
               </h3>

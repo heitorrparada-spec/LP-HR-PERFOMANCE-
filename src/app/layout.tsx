@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Lora, Inter } from "next/font/google";
+import { Lora, Inter, Barlow_Condensed } from "next/font/google";
 import "./globals.css";
 
 const lora = Lora({
@@ -15,6 +15,12 @@ const inter = Inter({
   weight: ["300", "400", "500", "600"],
 });
 
+const barlowCondensed = Barlow_Condensed({
+  variable: "--font-barlow",
+  subsets: ["latin"],
+  weight: ["600"],
+});
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://lp-hr-perfomance.vercel.app"),
   title: {
@@ -22,13 +28,13 @@ export const metadata: Metadata = {
     template: "%s — HR Performance",
   },
   description:
-    "Nutrição, psicologia e performance trabalhando de forma integrada. Escolha o nível de acompanhamento: individual, multidisciplinar ou Home Care.",
+    "Nutrição, psicologia e performance trabalhando de forma integrada. Escolha o nível de acompanhamento: individual, multidisciplinar ou HR Performance Elite.",
   keywords: [
     "HR Performance",
     "nutrição esportiva",
     "acompanhamento nutricional",
     "psicologia esportiva",
-    "home care",
+    "hr performance elite",
     "acompanhamento multidisciplinar",
     "Heitor Rodrigues Parada",
   ],
@@ -44,7 +50,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "HR Performance — Acompanhamento Esportivo Multidisciplinar",
     description:
-      "Um ecossistema de profissionais coordenados em torno do seu objetivo — do atendimento individual ao Home Care premium.",
+      "Um ecossistema de profissionais coordenados em torno do seu objetivo — do atendimento individual à HR Performance Elite.",
     url: "/",
     siteName: "HR Performance",
     type: "website",
@@ -54,7 +60,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "HR Performance — Acompanhamento Esportivo Multidisciplinar",
     description:
-      "Nutrição, psicologia e performance trabalhando de forma integrada — individual, multidisciplinar ou Home Care.",
+      "Nutrição, psicologia e performance trabalhando de forma integrada — individual, multidisciplinar ou HR Performance Elite.",
   },
 };
 
@@ -63,7 +69,7 @@ const jsonLd = {
   "@type": "Organization",
   name: "HR Performance",
   description:
-    "Ecossistema de acompanhamento esportivo multidisciplinar — nutrição, psicologia e performance, com formatos individual, multidisciplinar e Home Care.",
+    "Ecossistema de acompanhamento esportivo multidisciplinar — nutrição, psicologia e performance, com formatos individual, multidisciplinar e HR Performance Elite.",
   founder: {
     "@type": "Person",
     name: "Heitor Rodrigues Parada",
@@ -76,7 +82,10 @@ const jsonLd = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="pt-BR" className={`${lora.variable} ${inter.variable}`}>
+    <html
+      lang="pt-BR"
+      className={`${lora.variable} ${inter.variable} ${barlowCondensed.variable}`}
+    >
       <body className="font-sans">
         <script
           type="application/ld+json"

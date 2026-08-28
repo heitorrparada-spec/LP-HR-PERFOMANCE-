@@ -46,4 +46,18 @@ Registro dos feedbacks coletados dos pacientes do Heitor, brutos e já lapidados
 
 ---
 
+## 04 — Arthur Wronski
+
+**Bruto (mensagem original):**
+> Em pouco mas de dois meses eu venho reparando em muitas coisas que o corpo vem respondendo muito bem e estou muito animado para continuar evoluindo cada vez mais, por mais que as vezes eu mesmo nn ajudo no processo. Mais estpu completamente satisfeito e pretendo continuar com a consultoria para cada vez mais evoluir, muito obrigado Heitor cada dia estou com uma confiança e autoestima maior e agradeço de vdd
+
+**Lapidado (para uso na LP):**
+> "Em pouco mais de dois meses já venho reparando em muitas coisas — o corpo vem respondendo muito bem, e isso me deixa cada vez mais animado para continuar evoluindo, mesmo nos dias em que eu mesmo não ajudo tanto no processo. Estou completamente satisfeito e pretendo continuar com a consultoria. A cada dia estou com mais confiança e autoestima — muito obrigado, Heitor."
+>
+> **— Arthur Wronski**, 2+ meses e já evoluindo cada dia
+
+**Dado-chave para destaque visual:** 2+ meses (tempo de acompanhamento citado por ele mesmo).
+
+---
+
 <!-- Próximo depoimento: adicionar abaixo seguindo o mesmo formato -->

@@ -16,11 +16,24 @@ export function Navbar() {
     <nav
       className={cn(
         "fixed inset-x-0 top-0 z-50 flex items-center justify-between border-b border-transparent px-6 py-4 transition-[background-color,border-color] duration-300 ease-[cubic-bezier(0.16,1,0.3,1)]",
-        scrolled && "border-line-dark bg-ink/92 backdrop-blur-[10px]",
+        scrolled && "border-line-light bg-paper/95 backdrop-blur-[10px]",
       )}
     >
-      <a href="#hero" className="flex items-baseline gap-2 font-serif text-lg tracking-[0.06em] text-offwhite">
-        <b className="font-semibold text-gold">HR</b> PERFORMANCE
+      <a
+        href="#hero"
+        className="flex items-baseline gap-2 font-serif text-lg tracking-[0.06em]"
+      >
+        <b className={cn("font-semibold", scrolled ? "text-bronze" : "text-gold")}>
+          HR
+        </b>
+        <span
+          className={cn(
+            "transition-colors duration-300 ease-[cubic-bezier(0.16,1,0.3,1)]",
+            scrolled ? "text-ink" : "text-offwhite",
+          )}
+        >
+          PERFORMANCE
+        </span>
       </a>
       <a
         href="#contato"

@@ -47,10 +47,10 @@ export const tierResults: Record<
       "Olá! Fiz o teste rápido no site e o formato indicado foi o Acompanhamento Multidisciplinar. Quero saber mais.",
   },
   homecare: {
-    title: "Home Care",
+    title: "HR Performance Elite",
     text: "A experiência mais completa — parte da equipe até você, com acompanhamento integrado.",
     message:
-      "Olá! Fiz o teste rápido no site e o formato indicado foi o Home Care. Quero saber mais.",
+      "Olá! Fiz o teste rápido no site e o formato indicado foi a HR Performance Elite. Quero saber mais.",
   },
 };
 

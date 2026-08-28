@@ -10,7 +10,7 @@ const steps = [
   {
     num: "02",
     title: "Estratégia",
-    text: "Definição do formato — individual, multidisciplinar ou Home Care — e da estratégia de cada profissional envolvido.",
+    text: "Definição do formato — individual, multidisciplinar ou HR Performance Elite — e da estratégia de cada profissional envolvido.",
   },
   {
     num: "03",
@@ -42,7 +42,7 @@ export function HowItWorks() {
               delay={i * 0.08}
               className="relative border-gold px-5.5 first:pl-0 lg:border-r lg:pr-6 lg:last:border-r-0"
             >
-              <span className="font-serif text-[34px] leading-none text-bronze italic">
+              <span className="font-accent text-4xl leading-none font-semibold tracking-wide text-bronze">
                 {step.num}
               </span>
               <h3 className="mt-4 mb-2.5 font-serif text-[19px] font-semibold">

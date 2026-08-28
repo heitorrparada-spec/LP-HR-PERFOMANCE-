@@ -16,8 +16,8 @@ export default function Icon() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          background: "#0a0a0a",
-          border: "2px solid #b7975f",
+          background: "#2f4a3e",
+          border: "2px solid #c9a227",
         }}
       >
         <span
@@ -25,7 +25,7 @@ export default function Icon() {
             fontFamily: "Georgia, serif",
             fontSize: 34,
             fontWeight: 600,
-            color: "#b7975f",
+            color: "#c9a227",
             letterSpacing: "-0.02em",
           }}
         >

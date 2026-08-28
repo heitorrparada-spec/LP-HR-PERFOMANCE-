@@ -9,7 +9,7 @@ export function FinalCTA() {
       className="px-6 py-24 text-center text-offwhite md:py-28"
       style={{
         background:
-          "radial-gradient(ellipse 700px 400px at 50% 110%, rgba(183,151,95,0.16), transparent 60%), var(--ink)",
+          "radial-gradient(ellipse 700px 400px at 50% 110%, rgba(201,162,39,0.16), transparent 60%), var(--verde)",
       }}
     >
       <div className="mx-auto max-w-[1080px]">
@@ -27,7 +27,7 @@ export function FinalCTA() {
         <ScrollReveal delay={0.16}>
           <p className="mt-4.5 text-[15px] text-muted-dark">
             Fale comigo e vamos descobrir junto qual formato faz sentido pra
-            você: individual, multidisciplinar ou Home Care.
+            você: individual, multidisciplinar ou HR Performance Elite.
           </p>
         </ScrollReveal>
 
