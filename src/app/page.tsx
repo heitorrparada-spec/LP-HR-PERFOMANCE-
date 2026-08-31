@@ -1,6 +1,7 @@
 import { ScrollProgress } from "@/components/ui/Shared/ScrollProgress";
 import { StickyWhatsApp } from "@/components/ui/Shared/StickyWhatsApp";
 import { Navbar } from "@/components/sections/Navbar";
+import { VideoIntro } from "@/components/sections/VideoIntro";
 import { Hero } from "@/components/sections/Hero";
 import { Problem } from "@/components/sections/Problem";
 import { Proposal } from "@/components/sections/Proposal";
@@ -21,6 +22,7 @@ export default function Home() {
     <div className="bg-offwhite">
       <ScrollProgress />
       <Navbar />
+      <VideoIntro />
       <Hero />
       <Problem />
       <Proposal />
