@@ -18,9 +18,9 @@ export const team: TeamMember[] = [
   },
   {
     initials: "DP",
+    photo: "/denise-parada.jpeg",
     name: "Denise Rodrigues Parada",
     specialty: "Psicologia",
-    text: "[ Texto de apresentação a definir — em breve ]",
-    pending: true,
+    text: "Pós-graduada em TCC e pós-graduanda em Terapia do Esquema. Vasto conhecimento teórico e prático em ecossistemas multidisciplinares e atuação em consultório.",
   },
 ];
