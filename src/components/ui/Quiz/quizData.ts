@@ -9,7 +9,7 @@ export const quizQuestions: {
     options: [
       { label: "Só um profissional, focado numa área", tier: "individual" },
       { label: "Mais de um profissional, trabalhando junto", tier: "multi" },
-      { label: "Uma equipe completa, com visitas presenciais", tier: "homecare" },
+      { label: "Vários profissionais, com atendimento presencial em casa", tier: "homecare" },
     ],
   },
   {
