@@ -60,18 +60,6 @@ export function Hero() {
       </motion.div>
 
       <motion.div
-        {...variant(0.63)}
-        className="mt-9 flex flex-col items-center gap-1"
-      >
-        <span className="font-accent text-3xl font-semibold tracking-wide text-gold">
-          -23kg em 6 meses
-        </span>
-        <span className="text-[11px] tracking-[0.14em] text-muted-dark uppercase">
-          Resultado real de paciente
-        </span>
-      </motion.div>
-
-      <motion.div
         {...variant(0.76)}
         className="mt-9 flex flex-wrap justify-center gap-2.5"
       >

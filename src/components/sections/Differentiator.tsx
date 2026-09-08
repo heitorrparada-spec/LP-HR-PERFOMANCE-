@@ -5,17 +5,22 @@ const rows = [
   {
     num: "01",
     title: "Você escolhe o nível de integração",
-    text: "Do atendimento individual à HR Performance Elite — você define quanto suporte multidisciplinar faz sentido pra sua fase atual.",
+    text: "Do atendimento individual ao acompanhamento multidisciplinar completo — você define quanto suporte faz sentido pra sua fase atual.",
   },
   {
     num: "02",
-    title: "Profissionais que se comunicam",
-    text: "Quando você contrata mais de um profissional, a equipe se alinha em torno do mesmo objetivo — respeitando os limites de cada área.",
+    title: "Profissionais integrados, sem custo adicional",
+    text: "Quando você combina mais de uma especialidade, os profissionais se alinham em torno do mesmo objetivo — sem cobrança extra por essa integração.",
   },
   {
     num: "03",
     title: "Resultados sustentáveis",
     text: "Estratégias realistas, pensadas para caber na sua vida — não intervenções restritivas de curto prazo.",
+  },
+  {
+    num: "04",
+    title: "Suporte contínuo",
+    text: "Canal direto para dúvidas do dia a dia, sem esperar a próxima consulta marcada.",
   },
 ];
 

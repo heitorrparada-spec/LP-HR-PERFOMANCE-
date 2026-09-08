@@ -26,9 +26,11 @@ export function Problem() {
         <ScrollReveal className="max-w-[640px]">
           <Eyebrow>O ponto de partida</Eyebrow>
           <h2 className="font-serif text-[clamp(26px,4vw,38px)] leading-[1.28] font-medium">
-            Quando o acompanhamento não acompanha a sua rotina, o processo
-            perde força.
+            Quando o plano não muda junto com você, o processo perde força.
           </h2>
+          <p className="mt-4 text-[15px] text-muted-light">
+            Isso costuma acontecer por três motivos:
+          </p>
         </ScrollReveal>
 
         <div className="mt-14 grid grid-cols-1 gap-px border border-line-light bg-line-light sm:grid-cols-3">

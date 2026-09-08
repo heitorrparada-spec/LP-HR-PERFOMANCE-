@@ -40,6 +40,7 @@ const services = [
       "O acompanhamento multidisciplinar permite que você tenha acesso a diferentes profissionais, cada um atuando dentro de sua especialidade e contribuindo para uma visão mais completa do seu processo.",
       "Na HR Performance, você pode combinar Nutrição, Psicologia, Treinamento e outras especialidades, conforme suas necessidades e objetivos.",
       "O grande diferencial está na possibilidade de construir uma jornada coordenada, conectando diferentes áreas para que elas trabalhem em torno de um mesmo propósito: a sua evolução.",
+      "Aqui, o formato de cada atendimento (presencial ou online) é combinado individualmente com cada profissional — sem visitas domiciliares programadas.",
     ],
     bullets: [
       "Mais de uma especialidade",

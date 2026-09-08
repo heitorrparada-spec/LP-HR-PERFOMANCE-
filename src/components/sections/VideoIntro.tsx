@@ -98,7 +98,7 @@ export function VideoIntro() {
             className="relative z-10 mt-10"
           >
             <Button href="#hero" variant="primary">
-              Conhecer a HR Performance
+              Ver a proposta completa
             </Button>
           </motion.div>
         )}

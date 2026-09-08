@@ -17,7 +17,7 @@ const founders = [
     photo: "/denise-parada.jpeg",
     name: "Denise Rodrigues Parada",
     role: "Co-fundadora · Psicologia",
-    text: "Pós-graduada em Terapia Cognitivo-Comportamental (TCC) e pós-graduanda em Terapia do Esquema, Denise traz um repertório teórico e prático consistente, construído tanto na atuação clínica de consultório quanto na vivência em ecossistemas multidisciplinares de saúde. Para ela, nenhuma especialidade trabalha bem isolada: é no diálogo entre nutrição, psicologia e demais áreas que o cuidado se torna completo — e é esse entendimento que guia sua atuação dentro da HR Performance, sempre em função do objetivo final do paciente.",
+    text: "Pós-graduada em Terapia Cognitivo-Comportamental (TCC) e pós-graduanda em Terapia do Esquema — sua principal área de atuação —, Denise traz um repertório teórico e prático consistente, construído na atuação clínica e hospitalar, além da vivência em ecossistemas multidisciplinares de saúde. Para ela, nenhuma especialidade trabalha bem isolada: é no diálogo entre nutrição, psicologia e demais áreas que o cuidado se torna completo — e é esse entendimento que guia sua atuação dentro da HR Performance, sempre em função do objetivo final do paciente.",
     note: null,
     pending: false,
   },
