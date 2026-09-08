@@ -24,8 +24,8 @@ const barlowCondensed = Barlow_Condensed({
 export const metadata: Metadata = {
   metadataBase: new URL("https://lp-hr-perfomance.vercel.app"),
   title: {
-    default: "HR Performance — Acompanhamento Esportivo Multidisciplinar",
-    template: "%s — HR Performance",
+    default: "HR Performance - Acompanhamento Esportivo Multidisciplinar",
+    template: "%s - HR Performance",
   },
   description:
     "Nutrição, psicologia e performance trabalhando de forma integrada. Escolha o nível de acompanhamento: individual, multidisciplinar ou HR Performance Elite.",
@@ -48,9 +48,9 @@ export const metadata: Metadata = {
     follow: true,
   },
   openGraph: {
-    title: "HR Performance — Acompanhamento Esportivo Multidisciplinar",
+    title: "HR Performance - Acompanhamento Esportivo Multidisciplinar",
     description:
-      "Um ecossistema de profissionais coordenados em torno do seu objetivo — do atendimento individual à HR Performance Elite.",
+      "Um ecossistema de profissionais coordenados em torno do seu objetivo - do atendimento individual à HR Performance Elite.",
     url: "/",
     siteName: "HR Performance",
     type: "website",
@@ -58,9 +58,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "HR Performance — Acompanhamento Esportivo Multidisciplinar",
+    title: "HR Performance - Acompanhamento Esportivo Multidisciplinar",
     description:
-      "Nutrição, psicologia e performance trabalhando de forma integrada — individual, multidisciplinar ou HR Performance Elite.",
+      "Nutrição, psicologia e performance trabalhando de forma integrada - individual, multidisciplinar ou HR Performance Elite.",
   },
 };
 
@@ -69,7 +69,7 @@ const jsonLd = {
   "@type": "Organization",
   name: "HR Performance",
   description:
-    "Ecossistema de acompanhamento esportivo multidisciplinar — nutrição, psicologia e performance, com formatos individual, multidisciplinar e HR Performance Elite.",
+    "Ecossistema de acompanhamento esportivo multidisciplinar - nutrição, psicologia e performance, com formatos individual, multidisciplinar e HR Performance Elite.",
   founder: {
     "@type": "Person",
     name: "Heitor Rodrigues Parada",

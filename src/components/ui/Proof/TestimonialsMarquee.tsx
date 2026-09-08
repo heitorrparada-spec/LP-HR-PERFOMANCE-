@@ -37,7 +37,7 @@ function TestimonialCard({
         &ldquo;{t.quote}&rdquo;
       </p>
       <p className="mt-4 text-[11px] font-semibold tracking-[0.14em] text-bronze uppercase">
-        — {t.name}
+        - {t.name}
       </p>
     </GlowCard>
   );

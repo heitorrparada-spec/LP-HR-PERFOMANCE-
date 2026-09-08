@@ -1,17 +1,17 @@
 @import "tailwindcss";
 
 :root {
-  /* HR Performance — Guia de Design */
-  --ink: #14170f; /* preto grafite — texto principal, footer, prova social */
-  --verde: #1c3329; /* verde performance (pinheiro/premium) — cor primária, hero, fundos de destaque */
-  --verde-salvia: #35493d; /* variação mais clara — hover, detalhes */
+  /* HR Performance - Guia de Design */
+  --ink: #14170f; /* preto grafite - texto principal, footer, prova social */
+  --verde: #1c3329; /* verde performance (pinheiro/premium) - cor primária, hero, fundos de destaque */
+  --verde-salvia: #35493d; /* variação mais clara - hover, detalhes */
   --charcoal: #1e2318;
   --charcoal-2: #262c1e;
-  --gold: #c9a227; /* dourado hr — divisores, CTAs, destaques */
+  --gold: #c9a227; /* dourado hr - divisores, CTAs, destaques */
   --gold-light: #dcc064;
   --bronze: #7a5f1a; /* variante escura do dourado, para texto/borda sobre fundo claro (contraste) */
-  --offwhite: #ede6d6; /* bege areia — fundo principal das seções claras, cards */
-  --paper: #f7f6f3; /* branco gelo — fundo alternado */
+  --offwhite: #ede6d6; /* bege areia - fundo principal das seções claras, cards */
+  --paper: #f7f6f3; /* branco gelo - fundo alternado */
   --muted-dark: #aeb7ab;
   --muted-light: #5c6050;
   --line-dark: rgba(201, 162, 39, 0.22);

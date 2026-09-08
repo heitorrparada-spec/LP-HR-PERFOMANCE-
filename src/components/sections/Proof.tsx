@@ -25,7 +25,7 @@ export function Proof() {
                 &ldquo;Depoimento de paciente.&rdquo;
               </p>
               <p className="mt-4 text-[11px] font-normal tracking-[0.14em] text-gold uppercase">
-                [ Conteúdo a definir — inserir depoimentos e resultados reais ]
+                [ Conteúdo a definir - inserir depoimentos e resultados reais ]
               </p>
             </div>
           )}

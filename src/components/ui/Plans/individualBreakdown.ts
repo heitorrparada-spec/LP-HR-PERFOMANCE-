@@ -43,7 +43,7 @@ export const individualProfessionals: ProfessionalProcess[] = [
   {
     key: "psicologia",
     label: "Acompanhamento Psicológico",
-    quote: "Mudança sustentável também passa pela cabeça — não só pelo prato.",
+    quote: "Mudança sustentável também passa pela cabeça - não só pelo prato.",
     includes: [
       "Escuta acolhedora, sem julgamentos",
       "Ferramentas pra lidar com as frustrações do processo",

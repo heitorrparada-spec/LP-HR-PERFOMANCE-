@@ -5,12 +5,12 @@ const items = [
   {
     num: "01",
     title: "Profissionais desconectados",
-    text: "Nutricionista, psicólogo e personal trabalhando cada um por conta própria — sem conversar entre si sobre o mesmo objetivo.",
+    text: "Nutricionista, psicólogo e personal trabalhando cada um por conta própria - sem conversar entre si sobre o mesmo objetivo.",
   },
   {
     num: "02",
     title: "Estratégias que não acompanham mudanças",
-    text: "O corpo e a rotina mudam, mas o plano continua o mesmo até a próxima consulta marcada — em qualquer área.",
+    text: "O corpo e a rotina mudam, mas o plano continua o mesmo até a próxima consulta marcada - em qualquer área.",
   },
   {
     num: "03",

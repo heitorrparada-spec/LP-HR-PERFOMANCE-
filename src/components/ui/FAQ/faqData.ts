@@ -9,11 +9,11 @@ export const faqItems = [
   },
   {
     q: "Preciso contratar todos os profissionais de uma vez?",
-    a: "Não. Você escolhe o nível de integração que faz sentido agora — pode começar só com nutrição, por exemplo, e evoluir pra um acompanhamento multidisciplinar quando quiser.",
+    a: "Não. Você escolhe o nível de integração que faz sentido agora - pode começar só com nutrição, por exemplo, e evoluir pra um acompanhamento multidisciplinar quando quiser.",
   },
   {
     q: "O plano é realmente individualizado?",
-    a: "Sim. O atendimento é individual, sem planos genéricos ou copiados — construído a partir da sua rotina, preferências e objetivos.",
+    a: "Sim. O atendimento é individual, sem planos genéricos ou copiados - construído a partir da sua rotina, preferências e objetivos.",
   },
   {
     q: "Existe suporte entre uma consulta e outra?",
@@ -21,14 +21,14 @@ export const faqItems = [
   },
   {
     q: "Posso pedir ajustes se a rotina mudar?",
-    a: "Sim. O acompanhamento evolui com você — mudanças na rotina ou na resposta do corpo geram ajustes ágeis.",
+    a: "Sim. O acompanhamento evolui com você - mudanças na rotina ou na resposta do corpo geram ajustes ágeis.",
   },
   {
     q: "Quanto custa e como funciona o pagamento?",
-    a: "Os valores variam conforme o formato escolhido (individual, multidisciplinar ou HR Performance Elite). Aceitamos Pix, débito e crédito — os detalhes são alinhados na conversa inicial, junto com o plano ideal pra você.",
+    a: "Os valores variam conforme o formato escolhido (individual, multidisciplinar ou HR Performance Elite). Aceitamos Pix, débito e crédito - os detalhes são alinhados na conversa inicial, junto com o plano ideal pra você.",
   },
   {
     q: "Para quem é esse acompanhamento?",
-    a: "Para quem busca performance e resultado sustentável através de um acompanhamento próximo — seja com um profissional só, seja com uma equipe multidisciplinar trabalhando junto.",
+    a: "Para quem busca performance e resultado sustentável através de um acompanhamento próximo - seja com um profissional só, seja com uma equipe multidisciplinar trabalhando junto.",
   },
 ];

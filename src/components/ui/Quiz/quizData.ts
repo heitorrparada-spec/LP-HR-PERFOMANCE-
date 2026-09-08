@@ -36,7 +36,7 @@ export const tierResults: Record<
 > = {
   individual: {
     title: "Atendimento Individual",
-    text: "Um profissional só, focado no que você mais precisa agora — online ou presencial.",
+    text: "Um profissional só, focado no que você mais precisa agora - online ou presencial.",
     message:
       "Olá! Fiz o teste rápido no site e o formato indicado foi o Atendimento Individual. Quero saber mais.",
   },
@@ -48,7 +48,7 @@ export const tierResults: Record<
   },
   homecare: {
     title: "HR Performance Elite",
-    text: "A experiência mais completa — parte da equipe até você, com acompanhamento integrado.",
+    text: "A experiência mais completa - parte da equipe até você, com acompanhamento integrado.",
     message:
       "Olá! Fiz o teste rápido no site e o formato indicado foi a HR Performance Elite. Quero saber mais.",
   },

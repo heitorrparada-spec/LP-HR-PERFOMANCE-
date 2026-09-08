@@ -69,7 +69,7 @@ export function Team() {
           className="mx-auto mt-8 max-w-[560px] text-center"
         >
           <p className="text-[13px] text-muted-light italic">
-            Novas especialidades em expansão — a HR Performance está
+            Novas especialidades em expansão - a HR Performance está
             construindo uma equipe multidisciplinar para integrar diferentes
             áreas da performance e do cuidado.
           </p>

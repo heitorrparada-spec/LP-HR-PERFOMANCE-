@@ -11,7 +11,7 @@ export const testimonials: Testimonial[] = [
   {
     name: "Kauan",
     quote:
-      "Quando comecei, estava decidido: dessa vez eu mudaria os hábitos de verdade — porque sem isso, seria só mais dinheiro jogado fora. Segui a dieta à risca e os resultados vieram, e com eles a motivação. O Heitor esteve presente em cada etapa, sempre perguntando sobre a fome, os alimentos, a evolução — e a mudança foi radical, na dieta e nos treinos. Hoje já são 23kg a menos em 6 meses, e a meta não para — ainda temos um grande propósito pela frente.",
+      "Quando comecei, estava decidido: dessa vez eu mudaria os hábitos de verdade - porque sem isso, seria só mais dinheiro jogado fora. Segui a dieta à risca e os resultados vieram, e com eles a motivação. O Heitor esteve presente em cada etapa, sempre perguntando sobre a fome, os alimentos, a evolução - e a mudança foi radical, na dieta e nos treinos. Hoje já são 23kg a menos em 6 meses, e a meta não para - ainda temos um grande propósito pela frente.",
     statValue: 23,
     statSuffix: "kg",
     statLabel: "em 6 meses de acompanhamento",
@@ -19,7 +19,7 @@ export const testimonials: Testimonial[] = [
   {
     name: "Erick Borges",
     quote:
-      "Fiz o acompanhamento por 6 meses e consegui alcançar meu objetivo. O Heitor me deu muita atenção, entendeu exatamente o que eu queria e montou as refeições de uma forma muito boa — e toda semana ele perguntava como tinha sido minha semana, acompanhando de verdade se eu estava seguindo a dieta como planejado. É um profissional que recomendo para várias pessoas.",
+      "Fiz o acompanhamento por 6 meses e consegui alcançar meu objetivo. O Heitor me deu muita atenção, entendeu exatamente o que eu queria e montou as refeições de uma forma muito boa - e toda semana ele perguntava como tinha sido minha semana, acompanhando de verdade se eu estava seguindo a dieta como planejado. É um profissional que recomendo para várias pessoas.",
     statValue: 6,
     statSuffix: " meses",
     statLabel: "até alcançar o objetivo",
@@ -27,13 +27,13 @@ export const testimonials: Testimonial[] = [
   {
     name: "Gustavo Rezende",
     quote:
-      "Uma experiência muito positiva — tanto pela qualidade do serviço, das dietas e do conhecimento nutricional, quanto pela clareza na transmissão das informações e pela proximidade com o paciente. A disponibilidade do Heitor é algo louvável: ao mesmo tempo que você tem um profissional extremamente qualificado, tem alguém que entende as frustrações do dia a dia e não menospreza nenhum esforço ou dificuldade.",
+      "Uma experiência muito positiva - tanto pela qualidade do serviço, das dietas e do conhecimento nutricional, quanto pela clareza na transmissão das informações e pela proximidade com o paciente. A disponibilidade do Heitor é algo louvável: ao mesmo tempo que você tem um profissional extremamente qualificado, tem alguém que entende as frustrações do dia a dia e não menospreza nenhum esforço ou dificuldade.",
     statLabel: "Proximidade e suporte constante",
   },
   {
     name: "Arthur Wronski",
     quote:
-      "Em pouco mais de dois meses já venho reparando em muitas coisas — o corpo vem respondendo muito bem, e isso me deixa cada vez mais animado para continuar evoluindo, mesmo nos dias em que eu mesmo não ajudo tanto no processo. Estou completamente satisfeito e pretendo continuar com a consultoria. A cada dia estou com mais confiança e autoestima — muito obrigado, Heitor.",
+      "Em pouco mais de dois meses já venho reparando em muitas coisas - o corpo vem respondendo muito bem, e isso me deixa cada vez mais animado para continuar evoluindo, mesmo nos dias em que eu mesmo não ajudo tanto no processo. Estou completamente satisfeito e pretendo continuar com a consultoria. A cada dia estou com mais confiança e autoestima - muito obrigado, Heitor.",
     statValue: 2,
     statSuffix: "+ meses",
     statLabel: "e já evoluindo cada dia",

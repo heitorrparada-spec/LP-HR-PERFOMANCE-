@@ -36,7 +36,7 @@ export function Hero() {
         className="max-w-[820px] font-serif text-[clamp(32px,6vw,58px)] leading-[1.18] font-medium tracking-[-0.01em]"
       >
         Um ecossistema de acompanhamento construído{" "}
-        <em className="text-gold not-italic">em torno de você</em> — não o
+        <em className="text-gold not-italic">em torno de você</em> - não o
         contrário.
       </motion.h1>
 
@@ -45,8 +45,9 @@ export function Hero() {
         className="mt-6 max-w-[560px] text-[clamp(15px,2vw,18px)] font-light text-muted-dark"
       >
         Nutrição, psicologia e performance trabalhando de forma coordenada.
-        Você escolhe o nível de integração — de um profissional só até a
-        HR Performance Elite completa.
+        Você escolhe o nível de integração - de um atendimento com um único
+        profissional até a HR Performance Elite, nossa modalidade mais
+        completa, com toda a equipe indo até você.
       </motion.p>
 
       <motion.div
@@ -57,22 +58,6 @@ export function Hero() {
         <Button href="#como-funciona" variant="ghost">
           Ver como funciona
         </Button>
-      </motion.div>
-
-      <motion.div
-        {...variant(0.76)}
-        className="mt-9 flex flex-wrap justify-center gap-2.5"
-      >
-        {["Atendimento individual", "Multidisciplinar", "Elite"].map(
-          (tag) => (
-            <span
-              key={tag}
-              className="rounded-full border border-line-dark px-[13px] py-[7px] text-[10px] tracking-[0.14em] text-muted-dark uppercase"
-            >
-              {tag}
-            </span>
-          ),
-        )}
       </motion.div>
 
       <div

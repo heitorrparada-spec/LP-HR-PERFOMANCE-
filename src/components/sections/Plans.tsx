@@ -40,7 +40,7 @@ const services = [
       "O acompanhamento multidisciplinar permite que você tenha acesso a diferentes profissionais, cada um atuando dentro de sua especialidade e contribuindo para uma visão mais completa do seu processo.",
       "Na HR Performance, você pode combinar Nutrição, Psicologia, Treinamento e outras especialidades, conforme suas necessidades e objetivos.",
       "O grande diferencial está na possibilidade de construir uma jornada coordenada, conectando diferentes áreas para que elas trabalhem em torno de um mesmo propósito: a sua evolução.",
-      "Aqui, o formato de cada atendimento (presencial ou online) é combinado individualmente com cada profissional — sem visitas domiciliares programadas.",
+      "Aqui, o formato de cada atendimento (presencial ou online) é combinado individualmente com cada profissional - sem visitas domiciliares programadas.",
     ],
     bullets: [
       "Mais de uma especialidade",
@@ -112,7 +112,7 @@ export function Plans() {
           </h2>
           <p className="mt-5 text-[15px] text-muted-light">
             Na HR Performance, você escolhe o nível de acompanhamento que faz
-            sentido para o seu momento — do atendimento individual à
+            sentido para o seu momento - do atendimento individual à
             experiência multidisciplinar completa, com a possibilidade de
             levar nossa equipe até você.
           </p>
@@ -120,7 +120,7 @@ export function Plans() {
             {["Individual", "Multidisciplinar", "Elite"].map((tag) => (
               <span
                 key={tag}
-                className="rounded-full border border-line-light px-[13px] py-[7px] text-[10px] tracking-[0.14em] text-muted-light uppercase"
+                className="rounded-full border border-line-light px-[13px] py-[7px] text-center text-[10px] tracking-[0.14em] text-muted-light uppercase"
               >
                 {tag}
               </span>

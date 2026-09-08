@@ -19,7 +19,7 @@ export function FinalCTA() {
         </ScrollReveal>
         <ScrollReveal delay={0.08} className="mt-3.5">
           <h2 className="mx-auto max-w-[640px] font-serif text-[clamp(26px,5vw,42px)] leading-[1.32] font-medium italic">
-            Seu próximo passo começa com o formato certo — não com mais uma
+            Seu próximo passo começa com o formato certo - não com mais uma
             consulta isolada.
           </h2>
         </ScrollReveal>

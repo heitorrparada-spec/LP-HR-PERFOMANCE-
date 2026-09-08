@@ -10,7 +10,7 @@ const steps = [
   {
     num: "02",
     title: "Estratégia",
-    text: "Definição do formato — individual, multidisciplinar ou HR Performance Elite — e da estratégia de cada profissional envolvido.",
+    text: "Definição do formato - individual, multidisciplinar ou HR Performance Elite - e da estratégia de cada profissional envolvido.",
   },
   {
     num: "03",
